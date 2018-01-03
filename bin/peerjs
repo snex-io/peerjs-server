@@ -21,6 +21,11 @@ var path = require('path')
         description: 'timeout (milliseconds)',
         default: 5000
       },
+      ping: {
+        demand: false,
+        description: 'ping interval (milliseconds)',
+        default: 30000
+      },
       ip_limit: {
         demand: false,
         alias: 'i',
